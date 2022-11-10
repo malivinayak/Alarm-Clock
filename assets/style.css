@@ -72,3 +72,13 @@ body {
     border-radius: 5px;
     background: #4af7f7;
 }
+
+.wrapper p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.wrapper .developer {
+    font-size: 15px;
+}
