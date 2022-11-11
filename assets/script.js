@@ -35,6 +35,7 @@ setInterval(() => {
         HH = HH - 12;
         ampm = "PM";
     }
+    else ampm = "AM";
 
     // If hour is zero then set it to 12
     HH = HH == 0 ? HH = 12 : HH;
