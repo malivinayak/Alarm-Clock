@@ -29,11 +29,11 @@ for (let i = 2; i > 0; i--) {
 setInterval(() => {
     let date = new Date();
     let time;
-    let HH = date.getHours(), MM = date.getMinutes(), SS = date.getSeconds(), ampm;
+    let HH = date.getHours(), MM = date.getMinutes(), SS = date.getSeconds(), ampm = "AM";
 
     if (HH >= 12) {
         HH = HH - 12;
-        ampm = "PM"
+        ampm = "PM";
     }
 
     // If hour is zero then set it to 12
