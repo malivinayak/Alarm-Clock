@@ -20,6 +20,7 @@
     <title>Alarm Clock</title>
     <link rel="icon" href="./assets/images/clock.svg" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/clockStyle.css" />
   </head>
 
   <body>
@@ -29,7 +30,88 @@
       </h2>
       <p class="developer">Developed by <b>Vinayak Mali</b></p>
       <br />
-      <img src="./assets/images/clock.svg" alt="Clock Image" />
+      <div
+        class="clock"
+        role="img"
+        aria-label="Analog clock with the second hand showing a motion trail"
+      >
+        <div class="clock__ticks">
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+          <div class="clock__tick"></div>
+        </div>
+        <div class="clock__hands">
+          <div class="clock__hand clock__hand--hr"></div>
+          <div class="clock__hand clock__hand--min"></div>
+          <div class="clock__hand clock__hand--sec">
+            <div class="clock__hand-trail"></div>
+            <div class="clock__hand-trail"></div>
+            <div class="clock__hand-trail"></div>
+            <div class="clock__hand-trail"></div>
+            <div class="clock__hand-trail"></div>
+            <div class="clock__hand-trail"></div>
+            <div class="clock__hand-trail"></div>
+            <div class="clock__hand-trail"></div>
+          </div>
+        </div>
+      </div>
       <h1>HH:MM:SS AM</h1>
       <div class="content">
         <div class="column">
@@ -75,5 +157,6 @@
       </div>
     </div>
     <script src="./assets/script.js"></script>
+    <script src="./assets/clockScript.js"></script>
   </body>
 </html>
