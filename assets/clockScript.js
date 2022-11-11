@@ -13,7 +13,7 @@ class MotionClock {
 
         let time = date.getHours() * msInHr;
         time += date.getMinutes() * msInMin;
-        time += date.getSeconds() * msInSec;
+        time += (date.getSeconds() * msInSec) - 1000;
         time += date.getMilliseconds();
 
         if (el) {
