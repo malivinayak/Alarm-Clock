@@ -5,7 +5,7 @@
     font-family: sans-serif, Arial, Helvetica;
 }
 
-body, .wrapper, .content {
+body, .wrapper, .content, .content1{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +34,7 @@ body {
     margin: 30px 0;
 }
 
-.wrapper .content {
+.wrapper .content,.wrapper .content .content1 {
     width: 100%;
     justify-content: space-between;
 }
@@ -70,10 +70,10 @@ body {
     font-size: 25px;
     padding: 17 0;
     border-radius: 5px;
-    background: #4af7f7;
+    background:  #00539CFF;
 }
 
-.wrapper p {
+.wrapper .content p {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 25px;
@@ -81,4 +81,35 @@ body {
 
 .wrapper .developer {
     font-size: 15px;
+}
+
+.content1 .column1 {
+    padding: 0 10px;
+    width: calc(100% / 5 - 2px);
+}
+
+.content1 h3 {
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+.content1 button {
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 17 0;
+    border-radius: 15px;
+    background: #EEA47FFF;
+}
+
+
+.wrapper .content1 p {
+    width: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 11px;
 }
