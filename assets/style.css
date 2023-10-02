@@ -16,7 +16,7 @@ body,
 
 body {
     min-height: 100vh;
-    background: #4af7f7;
+    background: #59e2e2;
 }
 
 .wrapper {
@@ -115,4 +115,22 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 11px;
+}
+.wrapper button {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 14px 0;
+    border-radius: px;
+    background: #00539CFF;
+    transition: background 0.4s; /* Added a transition for smoother effect */
+}
+
+.wrapper button:hover {
+    background: #EEA47FFF; /* Darker orange color on hover */
 }
