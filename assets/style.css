@@ -41,6 +41,7 @@ body {
 .wrapper .content .content1 {
     width: 100%;
     justify-content: space-between;
+    column-gap: 10px;
 }
 
 .wrapper .content.disable {
